@@ -1,0 +1,32 @@
+html {
+  /* 62.5 % of the 16px */
+  font-size: 62.5%;
+}
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+  margin-right: 1rem;
+}
+
+.clear {
+  clear: both;
+}
+
+.tweet {
+  border: solid;
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* .add::after {
+  content: "";
+  display: block;
+  clear: both;
+} This is bad... reusing the code*/

@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.777rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+h3 {
+  font-size: 2.369rem;
+}
+
+p {
+  font-family: "Tiro Tamil", "Times New Roman", Times, serif;
+}
+
+.intro {
+  font-style: italic;
+}
+img {
+  width: 100%;
+}

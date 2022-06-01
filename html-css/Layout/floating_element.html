@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/floating_element.css" />
+  </head>
+  <body>
+    <article class="tweet clearfix">
+      <div class="avatar"></div>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <!-- <div class="clear"></div> -->
+      <!-- But this is not semantic, just a placeholder-->
+    </article>
+  </body>
+</html>
+
+<!-- 
+- <article> represents any independent, self contained piece of content.
+- floats makes content flow around them
+- clear는 왼쪽을 비운다.
+- By default parent elements don't see floated elements.
+  - when using float, you have to clear them after. by using div
+
+- you can also use overflow: auto or hidden. => a hack(a dirty solution)
+  - Use flexbox or grid instead don't use float
+-->

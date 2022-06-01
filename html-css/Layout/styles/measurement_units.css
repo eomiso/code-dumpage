@@ -1,0 +1,14 @@
+html {
+  /* 62.5 % of the 16px */
+  font-size: 62.5%;
+}
+
+body {
+  margin: 20px;
+}
+.box {
+  width: 10em;
+  height: 50em; /* 100% of the viewport */
+  background-color: gold;
+  border-top: 3px solid orange;
+}

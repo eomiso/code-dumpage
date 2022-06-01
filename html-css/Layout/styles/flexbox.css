@@ -1,0 +1,23 @@
+.container {
+  border: 3px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.box {
+  flex-basis: 15rem; /* This is going to override width if flex-direction is row*/
+  flex-shrink: 1;
+  flex: 1;
+  width: 5rem;
+  height: 5rem;
+  background: gold;
+  margin: 1rem;
+}
+
+.box-one {
+  flex-grow: 2; /* 2 라고해서 두 배 느는것은 아니다 */
+}

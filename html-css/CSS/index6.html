@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <article class="featured">
+      <h1 id="products" class="highlight"></h1>
+    </article>
+  </body>
+</html>
+
+<!-- 
+  h1 {
+    color: dodgerblue;
+  }
+
+  .highlight {
+    color: deeppink;
+  }
+  모든 브라우저에 default css가 있다.
+  그래서 normlize.css 를 사용하는 것이다.
+  직접확인 다해봐야 한다.
+
+  #products {
+    color: green;
+  }
+
+  What if there is element with equal specificity
+  
+  Selector Specificity (0, 0, 1) <# id, # class, # element selectors >
+
+  h1 {
+    color: dodgerblue !important; /* this will ignore other specifity */
+    /* This should be avoided! Makes your css unmaintainable*/
+  }
+
+  h1#products {
+    color: green;
+  }
+
+  .featured #products {
+    color: green;
+  } /* You can get rid of the important keyword by using more specific Selectors */
+  
+  But don't write something like this:
+  html body #featured h2#products.highlight {
+
+  }
+-->

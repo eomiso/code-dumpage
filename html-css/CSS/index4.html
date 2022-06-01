@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="products">
+      <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p>Lorem ipsum dolor sit amet</p>
+  </body>
+</html>
+
+<!-- 
+#products p { /* Descendant selector */
+  color: orange;
+}
+#products + p { /* Sibling selector */
+  color: orange;
+}
+
+#products ~ p { /* All(general) Sibling selector after the target */
+  color: orange;
+}
+-->
+
+<!-- 
+  Relational Selectors
+  - Cleaner markup
+  - Can be fragile
+  - Not as fast as basic selectors
+    - How browsers read and execute code
+    - When a browser sees a selector it looks for all the paragraphs
+      then looks for a paragraph that is under products id
+  - If you are confident that the dom will not change (the markup 
+    language's structure) then it's fine to use the relational selectors
+-->

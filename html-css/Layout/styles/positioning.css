@@ -1,0 +1,31 @@
+body {
+  margin: 10px;
+  height: 200vh;
+}
+
+.boxes {
+  border: 3px solid lightgrey;
+  position: relative; /* if you want to position the orange box relative to the conatiner, the container should be relative */
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one {
+  background: gold;
+}
+
+.box-two {
+  background-color: tomato;
+  position: fixed;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+  top: 0;
+}
+
+.box-three {
+  background-color: dodgerblue;
+}

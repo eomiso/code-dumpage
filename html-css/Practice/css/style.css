@@ -1,0 +1,38 @@
+#products p {
+  color: tomato;
+}
+
+div {
+  margin: 30px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+#gradients {
+  background: linear-gradient(to bottom right, blue, orange);
+  background: radial-gradient(circle at top left, white, yellow);
+}
+
+#border {
+  background-color: dodgerblue;
+  border: 10px dashed rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+#circle-gradients {
+  background: radial-gradient(white, yellow);
+}
+
+p::first-letter {
+  font-size: 30px;
+  color: black;
+}

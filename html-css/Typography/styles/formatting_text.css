@@ -1,0 +1,10 @@
+body {
+  direction: rtl;
+}
+p {
+  width: 50ch;
+  column-count: 2;
+  column-gap: 5rem;
+  column-rule: 3px dotted lightgray;
+  border: 1px solid gold;
+}

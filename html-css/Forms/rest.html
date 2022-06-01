@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+
+    <!-- CSS Reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <!-- Milligram CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+
+    <!-- You should properly set the path from the main file. -->
+    <style>
+      div {
+        width: 50rem;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mpzbbydg" method="POST">
+      <div class="form">
+        <label for="Name" class="label-inline">Name</label>
+        <input type="text" name="Name" id="form-name" autocomplete="off" />
+        <label for="Email" class="label-inline">Email</label>
+        <input type="email" name="Email" id="form-email" autocomplete="off" />
+        <input type="submit" value="submit" />
+      </div>
+
+      <div class="slider">
+        <input type="range" min="0" max="90" />
+      </div>
+
+      <div class="group">
+        <fieldset>
+          <legend>Billing Address</legend>
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+        </fieldset>
+        <section>
+          <h2>Billing Address</h2>
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+        </section>
+      </div>
+    </form>
+  </body>
+</html>

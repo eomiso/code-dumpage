@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/measurement_units.css" />
+  </head>
+  <body>
+    <div class="box">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laboriosam
+        officiis vitae sunt distinctio at quia, dolorum rerum dolore maiores
+        iste placeat. Vel vero qui eligendi ad nihil cupiditate dolor?
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- 
+- All relative value is converted to pixel value by the browser
+- body by default is 100% width.
+- When width and height are both %, there seems to be no height.
+  - that is because the parent element, body has no height or width specified.
+  - use viewport (vh)
+  - 10em : 10 x font size of the currrent element(or parent) -> base is 16pixels by the html element
+  - 10rm : 10 * font size of the root element
+  - conventional to set the font-size of the html to 62.5%
+    - This makes the default font size to 10px which makes it easy to calculate rem
+    - 사용자가 글씨크기를 키울때 그걸 감싸고 있는 Container까지 같이 키워준다.
+-->

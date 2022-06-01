@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/sizing_elements.css" />
+  </head>
+  <body>
+    <span class="box"></span>
+    <!-- There is a space and creates a space -->
+    <span class="box"></span><span class="box"></span>
+  </body>
+</html>
+<!-- 
+- When you add a border or padding the box gets bigger
+  This is because the width and height properties are applied to the `content box`.
+- Margin will not change size. It will just move the box away from the other 
+- Use box-sizing property: (default is content-box) change it to border-bo
+- You can use universal selector
+* {
+  box-sizing: border-box;
+}
+    - but this will not apply to pseudo elements
+
+    - you can do like bellow
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+- Div takes up the full horizontal space;
+  - Use spans(inline-element) instead of divs(block-element)
+  - <cmd+d> 는 tag를 쌍으로 선택하게 해준다.
+  - display property를 변경
+    - inline, block, inline-block;
+    - to give width and height it should be block displayed
+-->

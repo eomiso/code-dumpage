@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/flexbox.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box-one">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+- 그냥 하면 vertical 하게 드러난다.
+- justify-content(along the main axis)
+- align-items (along the cross axis)
+- align-content: 이거 이름이 이미 taken이라서 위에 두 개의 이름이 consistent 하지 않다.
+- a flex container is a block
+  - inside it follows the flex-rules
+- Remember, a block element gets tall just enough to fit its children
+- <align-content> only work if there are multiple lines
+- flex-wrap: wrap
+- align-self: applied to single item inside the flexbox
+
+- 해봐야 이해가 가긴 하는데
+  - align-content는 전체 container의 정 가운데이고
+  - align-items는 각 row의 높이 중에서의 가운데이다.
+  - and it seems align-content has priority than align-self
+-->

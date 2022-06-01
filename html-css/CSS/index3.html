@@ -1,0 +1,53 @@
+<!-- CSS Selectors: Type, ID, Class, Attribute -->
+<!-- Difference between Class and ID: You ID must be unique, Class no -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="products">
+      <article class="product"></article>
+      <article class="product"></article>
+      <article class="product"></article>
+    </section>
+    <a href="http://google.com" target="_blank">Google</a>
+  </body>
+</html>
+<!-- 
+
+#products {
+
+}
+
+.product {
+
+}
+
+a[target] {
+
+}
+  
+a[href="https://google.com"] { /* This is very fragile not good */
+
+}
+
+a[href*="google"] { /* This is much better: including */
+
+}
+
+a[href^="https"] { /* This is much better: starts with */
+
+}
+
+a[href$="com"] { /* This is much better: ends with */
+
+}
+
+a[href^="https"][href$="com"] { /* This is much better: ends with */
+
+}
+-->

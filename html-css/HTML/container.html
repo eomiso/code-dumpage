@@ -1,0 +1,44 @@
+<!-- Navigation bar is the container -->
+<!-- Hero unit is also a container -->
+<!-- div doesn't have any visualization -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .product {
+        background-color: yellow;
+        width: 300px;
+      }
+      .highlight {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div is a block level element: 해당 줄을 모두 차지 한다. -->
+    <div class="product">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+        necessitatibus quae deserunt, placeat est voluptas laudantium quasi
+        veritatis excepturi quaerat similique dolore harum, eius quas blanditiis
+        ratione non laborum earum.
+      </p>
+      <a href="#">Link</a>
+    </div>
+    <!-- <span> another generic container element that is often used for styling elements -->
+    <div class="product">
+      <p>
+        <div class="highlight">Lorem</div> ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+        necessitatibus quae deserunt, <span class="highlight">placeat</span> est voluptas laudantium quasi
+        veritatis excepturi quaerat similique dolore harum, eius quas blanditiis
+        ratione non laborum earum.
+      </p>
+      <a href="#">Link</a>
+    </div>
+  </body>
+</html>

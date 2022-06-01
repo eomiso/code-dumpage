@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+
+    <!-- CSS Reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <!-- Milligram CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+
+    <!-- You should properly set the path from the main file. -->
+  </head>
+  <body>
+    <form>
+      <input
+        type="text"
+        list="countries"
+        id="country-choice"
+        name="country-choice"
+        autocomplete="off"
+      />
+      <datalist id="countries">
+        <!-- When there is empty value, it doesnt work -->
+        <option data-value="1">Austrelia</option>
+        <option data-value="2">Germany</option>
+        <option data-value="3">Korea</option>
+        <option value="4">U.S.</option>
+      </datalist>
+    </form>
+
+    <input
+      list="ice-cream-flavors"
+      id="ice-cream-choice"
+      name="ice-cream-choice"
+    />
+
+    <datalist id="ice-cream-flavors">
+      <option value="Chocolate"></option>
+      <option value="Coconut"></option>
+      <option value="Mint"></option>
+      <option value="Strawberry"></option>
+      <option value="Vanilla"></option>
+    </datalist>
+
+    <select name="course-choice" id="course-choice">
+      <optgroup label="Front-end">
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">JavaScript</option>
+      </optgroup>
+      <optgroup label="Back-end">
+        <option value="4" selected>Node.js</option>
+        <option value="5">Django</option>
+        <option value="6">SQL</option>
+      </optgroup>
+    </select>
+
+    <select name="course-choice" id="course-choice" multiple>
+      <optgroup label="Back-end">
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">JavaScript</option>
+      </optgroup>
+      <optgroup>
+        <option value="4" selected>Node.js</option>
+        <option value="5">Django</option>
+        <option value="6">SQL</option>
+      </optgroup>
+    </select>
+  </body>
+</html>

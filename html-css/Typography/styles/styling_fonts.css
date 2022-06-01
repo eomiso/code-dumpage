@@ -1,0 +1,15 @@
+body {
+  margin: 10px;
+  /* Web safe Fonts */
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  font-weight: 700;
+  font-style: italic;
+  font-size: large;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

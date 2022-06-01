@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.box::after {
+  content: "Hello";
+  margin-left: 5px;
+}
+.box::before {
+  content: "World";
+  margin-left: 5px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  box-sizing: border-box;
+  display: inline-block;
+}
